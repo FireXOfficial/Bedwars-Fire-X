@@ -6,7 +6,7 @@ vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
 
 game.StarterGui:SetCore("SendNotification", {
-Title = "Bedwars OP V3 Script";
+Title = "Bedwars OP V1 Script";
 Text = "Made by Rendell Pilpil"; -- what the text says (ofc)
 Duration = 60;
 })
@@ -38,7 +38,7 @@ Main.Size = UDim2.new(0, 300, 0, 154)
 Main.Style = Enum.FrameStyle.ChatRed
 
 TextLabel.Parent = Main
-TextLabel.BackgroundColor3 = Color3.fromRGB(17, 1, 1)
+TextLabel.BackgroundColor3 = Color3.fromRGB(27, 5, 8)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.Position = UDim2.new(-0.025588274, 0, -0.0890700519, 0)
 TextLabel.Size = UDim2.new(0, 250, 0, 30)
@@ -55,7 +55,7 @@ TextButton.Position = UDim2.new(0.136470661, 0, 0.458670378, 0)
 TextButton.Size = UDim2.new(0, 200, 0, 58)
 TextButton.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
 TextButton.Font = Enum.Font.SciFi
-TextButton.Text = "Click To Activate"
+TextButton.Text = "Click"
 TextButton.TextColor3 = Color3.fromRGB(21, 235, 78)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -83,7 +83,7 @@ game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.out._NetMana
 wait()
 end)
 
-_G.HeadSize = 35
+_G.HeadSize = 0
 _G.Disabled = true
 
 game:GetService('RunService').RenderStepped:connect(function()
